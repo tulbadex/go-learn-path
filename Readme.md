@@ -1,0 +1,1 @@
+# This section talks about fmt package in go and how to print in go
