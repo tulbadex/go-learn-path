@@ -1,1 +1,1 @@
-# This lesson is about variables, string, numbers etc
+# This lesson is about printing and formating of string in go
