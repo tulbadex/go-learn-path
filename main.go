@@ -3,26 +3,22 @@ package main
 import "fmt"
 
 func main()  {
-	name := "ibrahim"
-	age := 24
-	// strings
-	fmt.Print("Hello, ")
-	fmt.Print("Ibrahim \n")
-	fmt.Print("New Line \n")
+	var ages [3]int = [3]int{10, 20, 30}
+	var ages1 = [4]int{10, 20, 30, 40}
 
-	fmt.Println("Hello Ibrahim")
-	fmt.Println("Goodbye Ibrahim")
+	names := [4]string{"ibrahim", "bobo", "ade", "baba"}
 
-	fmt.Println("My name is", name, "and my age is", age)
+	fmt.Println(ages, len(ages))
+	fmt.Println(ages1, len(ages1))
+	fmt.Println(names, len(names))
 
-	// formatting string
-	fmt.Printf("My name is %v and my age is %v \n", name, age)
-	fmt.Printf("My name is %q and my age is %q \n", name, age)
-	fmt.Printf("Age is type of %T \n", age)
-	fmt.Printf("Your score is %f \n", 55.5)
-	fmt.Printf("Your score is %0.1f \n", 55.5)
+	// slices
+	var scores = []int{100, 50, 60}
+	scores[2] = 24
+	scores = append(scores, 85, 30)
+	fmt.Println(scores, len(scores))
 
-	var re = fmt.Sprintf("My name is %v and my age is %v", name, age)
-	fmt.Println(re)
-	fmt.Println("saved string is:", re)
+	// slice and ranges
+	ranges := names[:2]
+	fmt.Println(ranges)
 }

@@ -1,1 +1,1 @@
-# This lesson is about printing and formating of string in go
+# This lesson is about array and slice in go
