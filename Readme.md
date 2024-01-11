@@ -1,1 +1,1 @@
-# This lesson is about array and slice in go
+# This lesson is about using standard library in go
