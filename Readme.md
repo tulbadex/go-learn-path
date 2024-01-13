@@ -1,1 +1,1 @@
-# This lesson is about boolean and conditional statement in go
+# This lesson is about using functions in go
